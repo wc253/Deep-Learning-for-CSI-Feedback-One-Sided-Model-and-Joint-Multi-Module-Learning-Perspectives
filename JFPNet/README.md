@@ -1,10 +1,10 @@
 #Deep Joint CSI Feedback and Multiuser Precoding for MIMO OFDM Systems
 
-**"Deep Joint CSI Feedback and Multiuser Precoding for MIMO OFDM Systems" [[IEEE]](https://arxiv.org/abs/2404.16289) proposed a joint CSI feedback and precoding network.** If our work is helpful for your research, we would hope you give us a star and citation. Thanks!
+**"Deep Joint CSI Feedback and Multiuser Precoding for MIMO OFDM Systems" [[arXiv]]([https://arxiv.org/abs/2404.16289](https://arxiv.org/abs/2404.16289)) proposed a joint CSI feedback and precoding network.** If our work is helpful for your research, we would hope you give us a star and citation. Thanks!
 
 This repository contains the implementation code for paper:
 
-**1. Deep Joint CSI Feedback and Multiuser Precoding for MIMO OFDM Systems [[IEEE]](https://arxiv.org/abs/2404.16289https://arxiv.org/abs/2404.16289)**  
+**1. Deep Joint CSI Feedback and Multiuser Precoding for MIMO OFDM Systems [[arXiv]](https://arxiv.org/abs/2404.16289)**  
 **2. Deep Learning for CSI Feedback: One-Sided Model and Joint Multi-Module Learning Perspectives [[arXiv]](https://arxiv.org/abs/2405.05522)**
 ## Abstract
 
