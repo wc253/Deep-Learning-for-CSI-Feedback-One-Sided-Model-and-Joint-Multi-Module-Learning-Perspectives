@@ -28,14 +28,14 @@ The design of precoding plays a crucial role in achieving a high downlink sum-ra
 3. Processing of the downlink CSI at the RB level: normalization is done for each sample, equivalent to an amplifier. This dataset is used to calculate the downlink channel capacity. The data stored includes the training dataset, validation dataset, test dataset and the normalization factors of all three. The dataset is present in the folder data_npz
  Corresponding file: data_pro_Hdl_RB.py
 
-### JNPNet network test
+### JFPNet network test
 Modify the dataset location to point to your own dataset (.npz file). Modify ed (compressed CSI dimension), snr_low (uplink signal-to-noise ratio in dB), snr_high (uplink signal-to-noise ratio in dB), P_sum (downlink transmit power), and noise_power (downlink full bandwidth noise power) in the file for training.
 
  The current network is the case of 2 users, when increasing the number of users need to modify the data loading and network framework part, refer to the two users can be.
 
  Corresponding code: MU_seperate_DJSCC_net2_PA.py:DJSCC network+JMP_+ PA module
 
-### Legacy Algorithms
+### Traditional Algorithms
  BD_max_R_perfect_CSI.mat: perfect feedback, full channel state information
  BD_max_R_part_CSI.mat: DJSCC + BD based on partial channel state information, storing BD precoding followed by precoding vector
  NN_with_BD_part_CSI: BD+PF
